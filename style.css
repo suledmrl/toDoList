@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffeee3;
+    font-family: Patrick Hand;
+    background-image: url('kalp.png');
+    background-position: top;
+    background-size: contain;
+
+}
+
+.container {
+    width: 80%;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #ffeee3;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#title {
+    text-align: center;
+    font-size: 55px;
+    font-family: rubik bubbles;
+    color: #7eb5be;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #9098bbd0;
+}
+
+#inputText {
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid rgb(107, 164, 168);
+    border-radius: 15px;
+    color: rgb(105, 9, 160);
+    font-family: Patrick Hand;
+}
+
+#addToDo {
+    height: 45px;
+    width: 80px;
+    border: 1px solid rgb(107, 164, 168);
+    vertical-align: middle;
+    font-size: 30px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(144, 217, 223);
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Patrick Hand;
+}
+
+#addToDo:active {
+    background-color: blue;
+    color: #fff;
+}
+
+#clearToDo {
+    height: 45px;
+    width: 100px;
+    border: 1px solid rgb(107, 164, 168);
+    vertical-align: middle;
+    font-size: 30px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(160, 9, 152);
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Patrick Hand;
+}
+
+#clearToDo:active {
+    background-color: black;
+    color: #fff;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: rgb(105, 9, 160);
+    text-transform: capitalize;
+    list-style-type: none;
+}
+
+.to-dos {
+    margin-top: 25px;
+    text-align: justify;
+    width: 70%;
+    margin-left: 30%;
+}
+
+li::before {
+    content: "";
+    background-image: url(https://media.tenor.com/la4EqHMxNQoAAAAj/heart-cute.gif);
+    background-size: contain;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    position: relative;
+    top: 0.1rem;
+    margin-right: 0.2rem;
+
+}
